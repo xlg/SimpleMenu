@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:background="@color/color_cfd8dd"
+    android:padding="10dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/icon_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_search"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="搜"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/icon_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_download"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="载"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/icon_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_share"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="享"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/icon_gu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_gu"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="股"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/icon_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_main"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="X"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
